@@ -1,0 +1,46 @@
+/* Website styles */
+
+* {
+  font-size: 100%;
+  margin: 0;
+  line-height: 1;
+  box-sizing: content-box;
+}
+
+body {
+  background-image: url(images/white-waves.png);
+}
+
+.banner {
+  height: 350px;
+  background-image: url(images/cedar-sanjo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  background-repeat: repeat;
+  display: grid;
+  grid-template-columns: 30% 60%;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.container2 {
+  padding-right: 10%;
+}
+
+.description {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-top: 10%;
+}
+
+img {
+  width: 30%;
+  padding: 10%;
+}
